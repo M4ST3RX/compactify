@@ -4,9 +4,7 @@ A lightweight Windows desktop utility that compresses game folders using the bui
 
 ## Download
 
-Get the latest release from the [`publish/v1.0`](publish/v1.0) folder:
-
-- `Compactify.exe` — self-contained single-file executable (no .NET runtime required)
+Get the latest release from the [`publish/v1.0`](publish/v1.0)
 
 ## Features
 
