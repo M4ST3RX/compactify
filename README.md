@@ -26,6 +26,12 @@ Get the latest release from the [`publish/v1.0`](publish/v1.0)
 - Windows 10/11
 - NTFS drive
 
+## Virus Scan
+ 
+[![VirusTotal scan](https://img.shields.io/badge/VirusTotal-View%20report-4285F4?logo=virustotal&logoColor=white)](https://www.virustotal.com/gui/file/b2eedbd62a663120cfdc5dc11516e749262206a76abeb3359e69e6f11b95567a/detection)
+
+Compactify may be flagged by one obscure AV engine as `W32.Malware.F3354589` — this is a false positive caused by the app enumerating running processes and invoking `compact.exe`. The source is private, but the behavior is fully explained above.
+
 ## Notes
 
 - Compression is done with `compact.exe /EXE:LZX`.
